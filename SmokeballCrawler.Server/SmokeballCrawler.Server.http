@@ -1,0 +1,6 @@
+@Smokeball.Server_HostAddress = http://localhost:5029
+
+GET {{Smokeball.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

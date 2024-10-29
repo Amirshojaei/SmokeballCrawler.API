@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smokeball.Api", "SmokeballCrawler.Server\Smokeball.Api.csproj", "{BAA0735A-8007-4493-8EC9-E3D1379045A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smokeball.Domain", "Smokeball.Domain\Smokeball.Domain.csproj", "{BCD9A42A-D6B3-4460-AB62-D1A6D93099CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smokeball.Application", "Smokeball.Application\Smokeball.Application.csproj", "{EF2065DC-A201-4F63-8DA7-31E93C5968D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smokeball.UnitTests", "Smokeball.UnitTests\Smokeball.UnitTests.csproj", "{6B0B9E2E-5441-4E67-953D-93CFAA6F1E41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smokeball.IntegrationTests", "Smokeball.IntegrationTests\Smokeball.IntegrationTests.csproj", "{6BF8E3C5-5C6D-4B67-A969-20379E019E65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAA0735A-8007-4493-8EC9-E3D1379045A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA0735A-8007-4493-8EC9-E3D1379045A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA0735A-8007-4493-8EC9-E3D1379045A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA0735A-8007-4493-8EC9-E3D1379045A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD9A42A-D6B3-4460-AB62-D1A6D93099CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD9A42A-D6B3-4460-AB62-D1A6D93099CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD9A42A-D6B3-4460-AB62-D1A6D93099CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD9A42A-D6B3-4460-AB62-D1A6D93099CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2065DC-A201-4F63-8DA7-31E93C5968D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2065DC-A201-4F63-8DA7-31E93C5968D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2065DC-A201-4F63-8DA7-31E93C5968D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2065DC-A201-4F63-8DA7-31E93C5968D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0B9E2E-5441-4E67-953D-93CFAA6F1E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0B9E2E-5441-4E67-953D-93CFAA6F1E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0B9E2E-5441-4E67-953D-93CFAA6F1E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0B9E2E-5441-4E67-953D-93CFAA6F1E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF8E3C5-5C6D-4B67-A969-20379E019E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF8E3C5-5C6D-4B67-A969-20379E019E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF8E3C5-5C6D-4B67-A969-20379E019E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF8E3C5-5C6D-4B67-A969-20379E019E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D70AF5C-86DD-4E2A-BBCD-5522800EFFA5}
+	EndGlobalSection
+EndGlobal
